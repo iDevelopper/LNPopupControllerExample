@@ -36,9 +36,12 @@ class ChildViewController: UIViewController {
             containerVC.popupBar.customBarViewController = customYTBar
             containerVC.popupContentView.popupCloseButtonStyle = .round
             containerVC.popupInteractionStyle = .snap
-            let popupContentVC = UIStoryboard(name: "Music", bundle: nil).instantiateViewController(withIdentifier: "DemoMusicPlayerController") as? DemoMusicPlayerController
+            let popupContentController = UIStoryboard(name: "Music", bundle: nil).instantiateViewController(withIdentifier: "DemoMusicPlayerController") as! DemoMusicPlayerController
+            popupContentController.songTitle = "Youtube style example"
+            popupContentController.albumTitle = "Example"
+            popupContentController.albumArt = UIImage(named: "genre\(1)")!
             DispatchQueue.main.async {
-                containerVC.presentPopupBar(withContentViewController: popupContentVC!, animated: true) {
+                containerVC.presentPopupBar(withContentViewController: popupContentController, animated: true) {
                     print("PopupBar presented")
                 }
             }
