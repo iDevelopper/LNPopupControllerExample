@@ -21,7 +21,7 @@ extension ContainerController {
         }
         return CGRect(x: 0, y: self.view.bounds.height - height, width: self.view.bounds.width, height: height)
     }
-    
+ 
     override public var insetsForBottomDockingView: UIEdgeInsets {
         if #available(iOS 11.0, *) {
             return .zero

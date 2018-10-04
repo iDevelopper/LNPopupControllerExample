@@ -16,7 +16,8 @@ class ChildViewController: UIViewController {
     }
     
     @IBAction func present(_ sender: UIButton) {
-        self.presentPopup()
+        //self.presentPopup()
+        self.presentCustomPopup()
     }
     
     @IBAction func dismiss(_ sender: UIButton) {
@@ -25,6 +26,23 @@ class ChildViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    func presentCustomPopup() {
+        if let containerVC = self.containerController {
+            let customYTBar = storyboard!.instantiateViewController(withIdentifier: "CustomYTBarViewController") as! CustomYTBarViewController
+            customYTBar.view.backgroundColor = .clear
+            containerVC.popupBar.inheritsVisualStyleFromDockingView = false
+            containerVC.popupBar.customBarViewController = customYTBar
+            containerVC.popupContentView.popupCloseButtonStyle = .round
+            containerVC.popupInteractionStyle = .snap
+            let popupContentVC = UIStoryboard(name: "Music", bundle: nil).instantiateViewController(withIdentifier: "DemoMusicPlayerController") as? DemoMusicPlayerController
+            DispatchQueue.main.async {
+                containerVC.presentPopupBar(withContentViewController: popupContentVC!, animated: true) {
+                    print("PopupBar presented")
+                }
+            }
+        }
     }
     
     func presentPopup() {

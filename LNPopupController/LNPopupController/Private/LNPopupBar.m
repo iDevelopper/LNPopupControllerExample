@@ -1071,6 +1071,10 @@ static UIBlurEffectStyle _LNBlurEffectStyleForSystemBarStyle(UIBarStyle systemBa
 - (void)_updateViewsAfterCustomBarViewControllerUpdate
 {
 	BOOL hide = _customBarViewController != nil;
+    // For Custom Popup Bar View
+    _backgroundView.hidden = hide;
+    _shadowView.hidden = hide;
+    //
 	_toolbar.hidden = hide;
 	_titlesView.hidden = hide;
 }

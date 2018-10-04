@@ -11,6 +11,7 @@
 		32EB6EA4215A4B50000B2E6E /* Custom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EB6EA2215A4B50000B2E6E /* Custom.storyboard */; };
 		32EB6EA6215A4C27000B2E6E /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB6EA5215A4C27000B2E6E /* ContainerController.swift */; };
 		32EB6EA8215A6C7D000B2E6E /* ContainerController+LNPopupCustomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB6EA7215A6C7D000B2E6E /* ContainerController+LNPopupCustomContainer.swift */; };
+		32EB6EAE2165DB45000B2E6E /* CustomYTBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB6EAD2165DB44000B2E6E /* CustomYTBarViewController.swift */; };
 		3908C34C1E7C9EA200451B5D /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3908C34B1E7C9EA200451B5D /* SettingsTableViewController.m */; };
 		39140B901DBD69540036A6C5 /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397C560D1B74DA66007A67F0 /* Music.storyboard */; };
 		39277A091B58228000293F95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39277A081B58228000293F95 /* main.m */; };
@@ -79,6 +80,7 @@
 		32EB6EA2215A4B50000B2E6E /* Custom.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Custom.storyboard; sourceTree = "<group>"; };
 		32EB6EA5215A4C27000B2E6E /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContainerController.swift; path = "/Users/patrickbodet/Downloads/LNPopupControllerExample-master/LNPopupControllerExample/LNPopupControllerExample/Demo - Custom Container/ContainerController.swift"; sourceTree = "<absolute>"; };
 		32EB6EA7215A6C7D000B2E6E /* ContainerController+LNPopupCustomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContainerController+LNPopupCustomContainer.swift"; sourceTree = "<group>"; };
+		32EB6EAD2165DB44000B2E6E /* CustomYTBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomYTBarViewController.swift; sourceTree = "<group>"; };
 		3908C34A1E7C9EA200451B5D /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
 		3908C34B1E7C9EA200451B5D /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
 		39277A041B58228000293F95 /* LNPopupControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNPopupControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 				32EB6EA5215A4C27000B2E6E /* ContainerController.swift */,
 				32EB6EA7215A6C7D000B2E6E /* ContainerController+LNPopupCustomContainer.swift */,
 				32EB6EA1215A4B50000B2E6E /* ChildViewController.swift */,
+				32EB6EAD2165DB44000B2E6E /* CustomYTBarViewController.swift */,
 				32EB6EA2215A4B50000B2E6E /* Custom.storyboard */,
 			);
 			path = "Demo - Custom Container";
@@ -420,6 +423,7 @@
 				39837A241B758541004D2DA9 /* DemoMusicPlayerController.swift in Sources */,
 				393F23271E16C192000E969D /* CustomMapBarViewController.swift in Sources */,
 				39F513F61B88F9E800F7C717 /* COSTouchVisualizerWindow.m in Sources */,
+				32EB6EAE2165DB45000B2E6E /* CustomYTBarViewController.swift in Sources */,
 				393F232B1E16D1E4000E969D /* HigherSearchBar.swift in Sources */,
 				32EB6EA3215A4B50000B2E6E /* ChildViewController.swift in Sources */,
 				39277A0C1B58228000293F95 /* AppDelegate.m in Sources */,

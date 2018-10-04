@@ -16,7 +16,16 @@ class MapViewController: UIViewController, UISearchBarDelegate {
 
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
+        
+        let targetVC: UIViewController = self.tabBarController ?? self
 		
+        let customMapBar = UIStoryboard(name: "Custom", bundle: nil).instantiateViewController(withIdentifier: "CustomYTBarViewController") as! CustomYTBarViewController
+        customMapBar.view.backgroundColor = .clear
+        targetVC.popupBar.inheritsVisualStyleFromDockingView = false
+        targetVC.popupBar.customBarViewController = customMapBar
+        targetVC.popupContentView.popupCloseButtonStyle = .none
+        targetVC.popupInteractionStyle = .snap
+        /*
 		let customMapBar = storyboard!.instantiateViewController(withIdentifier: "CustomMapBarViewController") as! CustomMapBarViewController
 		customMapBar.view.backgroundColor = .clear
 		customMapBar.searchBar.delegate = self
@@ -24,12 +33,13 @@ class MapViewController: UIViewController, UISearchBarDelegate {
 		popupBar.customBarViewController = customMapBar
 		popupContentView.popupCloseButtonStyle = .none
 		popupInteractionStyle = .snap
-		
-		popupContentVC = storyboard!.instantiateViewController(withIdentifier: "PopupContentController") as! LocationsController
+		*/
+        popupContentVC = storyboard!.instantiateViewController(withIdentifier: "PopupContentController") as? LocationsController
 		popupContentVC.tableView.backgroundView = UIVisualEffectView(effect: UIBlurEffect(style: .extraLight))
 		
 		DispatchQueue.main.async {
-			self.presentPopupBar(withContentViewController: self.popupContentVC, animated: false, completion: nil)
+//			self.presentPopupBar(withContentViewController: self.popupContentVC, animated: false, completion: nil)
+            targetVC.presentPopupBar(withContentViewController: self.popupContentVC, animated: false, completion: nil)
 		}
 	}
 	
