@@ -33,7 +33,7 @@ class ChildViewController: UIViewController {
             let customYTBar = storyboard!.instantiateViewController(withIdentifier: "CustomYTBarViewController") as! CustomYTBarViewController
             customYTBar.view.backgroundColor = .clear
             containerVC.popupBar.isTranslucent = false
-            //containerVC.popupBar.backgroundColor = .clear
+            containerVC.popupBar.backgroundColor = .clear
             containerVC.popupBar.inheritsVisualStyleFromDockingView = false
             containerVC.popupBar.customBarViewController = customYTBar
             containerVC.popupContentView.popupCloseButtonStyle = .round
