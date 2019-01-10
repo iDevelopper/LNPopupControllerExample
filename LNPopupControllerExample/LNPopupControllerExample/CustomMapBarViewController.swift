@@ -26,4 +26,19 @@ class CustomMapBarViewController: LNPopupCustomBarViewController {
 	override func popupItemDidUpdate() {
 		searchBar.text = containingPopupBar.popupItem?.title
 	}
+
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        coordinator.animate(alongsideTransition: { (_ context) in
+            //
+            if size.width > size.height {
+                self.preferredContentSize = CGSize(width: -1, height: 48)
+            }
+            else {
+                self.preferredContentSize = CGSize(width: -1, height: 65)
+            }
+        }) { (_ context) in
+            //
+        }
+    }
+    
 }

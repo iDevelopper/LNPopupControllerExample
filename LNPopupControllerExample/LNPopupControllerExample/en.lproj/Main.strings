@@ -1,0 +1,147 @@
+
+/* Class = "UITableViewSection"; headerTitle = "Customizations"; ObjectID = "0W7-xT-AZi"; */
+"0W7-xT-AZi.headerTitle" = "Customizations";
+
+/* Class = "UILabel"; text = "Tab Bar Controller"; ObjectID = "4WM-5E-jJw"; */
+"4WM-5E-jJw.text" = "Tab Bar Controller";
+
+/* Class = "UITableViewSection"; headerTitle = "Progress View Style"; ObjectID = "6SH-XQ-iDo"; */
+"6SH-XQ-iDo.headerTitle" = "Progress View Style";
+
+/* Class = "UILabel"; text = "Tab Bar Controller + Navigation Controller"; ObjectID = "7FA-3I-y3z"; */
+"7FA-3I-y3z.text" = "Tab Bar Controller + Navigation Controller";
+
+/* Class = "UILabel"; text = "View Controller"; ObjectID = "9s3-H0-xJU"; */
+"9s3-H0-xJU.text" = "View Controller";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "AMP-se-kQW"; */
+"AMP-se-kQW.title" = "Settings";
+
+/* Class = "UITableViewSection"; headerTitle = "Interaction Style"; ObjectID = "AcT-Nb-XAa"; */
+"AcT-Nb-XAa.headerTitle" = "Interaction Style";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "Cwj-Fj-6bc"; */
+"Cwj-Fj-6bc.text" = "Default";
+
+/* Class = "UILabel"; text = "Disabled"; ObjectID = "D3Z-UZ-Qj5"; */
+"D3Z-UZ-Qj5.text" = "Disabled";
+
+/* Class = "UIButton"; normalTitle = "Next ▸"; ObjectID = "DxD-7y-6Na"; */
+"DxD-7y-6Na.normalTitle" = "Next ▸";
+
+/* Class = "UILabel"; text = "Navigation Controller"; ObjectID = "EXy-Xb-dWO"; */
+"EXy-Xb-dWO.text" = "Navigation Controller";
+
+/* Class = "UILabel"; text = "None"; ObjectID = "F5o-Yq-uuI"; */
+"F5o-Yq-uuI.text" = "None";
+
+/* Class = "UITableViewSection"; headerTitle = "Demo App"; ObjectID = "Gta-F3-Ame"; */
+"Gta-F3-Ame.headerTitle" = "Demo App";
+
+/* Class = "UIBarButtonItem"; title = "Reset"; ObjectID = "Ism-nw-42d"; */
+"Ism-nw-42d.title" = "Reset";
+
+/* Class = "UIBarButtonItem"; title = "Gallery"; ObjectID = "J60-GM-dOF"; */
+"J60-GM-dOF.title" = "Gallery";
+
+/* Class = "UINavigationItem"; title = "LNPopupController"; ObjectID = "JYD-6c-4Kf"; */
+"JYD-6c-4Kf.title" = "LNPopupController";
+
+/* Class = "UILabel"; text = "Apple Music"; ObjectID = "KHO-fT-c7X"; */
+"KHO-fT-c7X.text" = "Apple Music";
+
+/* Class = "UIBarButtonItem"; title = "Present Popup"; ObjectID = "L0d-F2-GTi"; */
+"L0d-F2-GTi.title" = "Present Popup";
+
+/* Class = "UILabel"; text = "Top"; ObjectID = "Me2-qd-DRi"; */
+"Me2-qd-DRi.text" = "Top";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "Mph-ZL-PYQ"; */
+"Mph-ZL-PYQ.text" = "Default";
+
+/* Class = "UIBarButtonItem"; title = "Bar Style"; ObjectID = "Mqv-hY-tWM"; */
+"Mqv-hY-tWM.title" = "Bar Style";
+
+/* Class = "UILabel"; text = "Correct bottom layout guide."; ObjectID = "N4q-gh-14d"; */
+"N4q-gh-14d.text" = "Correct bottom layout guide.";
+
+/* Class = "UILabel"; text = "Split View Controller (Master)"; ObjectID = "Nfv-xp-DFu"; */
+"Nfv-xp-DFu.text" = "Split View Controller (Master)";
+
+/* Class = "UILabel"; text = "Drag"; ObjectID = "Peh-hx-OVr"; */
+"Peh-hx-OVr.text" = "Drag";
+
+/* Class = "UIButton"; normalTitle = "Gallery"; ObjectID = "PfZ-Ec-LGF"; */
+"PfZ-Ec-LGF.normalTitle" = "Gallery";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "PjS-ok-m0Q"; */
+"PjS-ok-m0Q.title" = "Item";
+
+/* Class = "UILabel"; text = "Compact"; ObjectID = "SWu-ne-rE3"; */
+"SWu-ne-rE3.text" = "Compact";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "TwD-hj-oWM"; */
+"TwD-hj-oWM.text" = "Default";
+
+/* Class = "UILabel"; text = "Prominent"; ObjectID = "X5r-Xe-g2j"; */
+"X5r-Xe-g2j.text" = "Prominent";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "Xjk-jF-du0"; */
+"Xjk-jF-du0.text" = "Default";
+
+/* Class = "UILabel"; text = "Bottom"; ObjectID = "Z2Y-Jz-8Ls"; */
+"Z2Y-Jz-8Ls.text" = "Bottom";
+
+/* Class = "UINavigationItem"; title = "LNPopupController"; ObjectID = "ZqR-0M-W4y"; */
+"ZqR-0M-W4y.title" = "LNPopupController";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "dz8-Jf-jzl"; */
+"dz8-Jf-jzl.text" = "Default";
+
+/* Class = "UILabel"; text = "Round"; ObjectID = "dzD-Xf-PIn"; */
+"dzD-Xf-PIn.text" = "Round";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "eB1-oU-dLQ"; */
+"eB1-oU-dLQ.text" = "Enabled";
+
+/* Class = "UILabel"; text = "None"; ObjectID = "jB9-gB-SHh"; */
+"jB9-gB-SHh.text" = "None";
+
+/* Class = "UITableViewSection"; headerTitle = "Marqee"; ObjectID = "kQf-Oi-mdA"; */
+"kQf-Oi-mdA.headerTitle" = "Marqee";
+
+/* Class = "UILabel"; text = "Chevron"; ObjectID = "oVC-Xr-sRK"; */
+"oVC-Xr-sRK.text" = "Chevron";
+
+/* Class = "UITableViewSection"; headerTitle = "Custom Popup Bar"; ObjectID = "r2v-LF-kGk"; */
+"r2v-LF-kGk.headerTitle" = "Custom Popup Bar";
+
+/* Class = "UILabel"; text = "Maps"; ObjectID = "rWD-1P-SlK"; */
+"rWD-1P-SlK.text" = "Maps";
+
+/* Class = "UILabel"; text = "Split View Controller (Global)"; ObjectID = "rpx-bu-B1q"; */
+"rpx-bu-B1q.text" = "Split View Controller (Global)";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "sIK-iP-AtO"; */
+"sIK-iP-AtO.text" = "Enabled";
+
+/* Class = "UITableViewSection"; headerTitle = "Close Button Style"; ObjectID = "sf0-Kr-01T"; */
+"sf0-Kr-01T.headerTitle" = "Close Button Style";
+
+/* Class = "UILabel"; text = "Custom Container Controller"; ObjectID = "tIb-nc-2SM"; */
+"tIb-nc-2SM.text" = "Custom Container Controller";
+
+/* Class = "UITableViewSection"; headerTitle = "Bar Style"; ObjectID = "tmH-tD-gq8"; */
+"tmH-tD-gq8.headerTitle" = "Bar Style";
+
+/* Class = "UILabel"; text = "None"; ObjectID = "txy-GR-wAU"; */
+"txy-GR-wAU.text" = "None";
+
+/* Class = "UITableViewSection"; headerTitle = "Standard Scenes"; ObjectID = "u0a-MD-vX0"; */
+"u0a-MD-vX0.headerTitle" = "Standard Scenes";
+
+/* Class = "UIBarButtonItem"; title = "Dismiss Popup"; ObjectID = "via-gg-BV5"; */
+"via-gg-BV5.title" = "Dismiss Popup";
+
+/* Class = "UILabel"; text = "Snap"; ObjectID = "xfY-x8-2n1"; */
+"xfY-x8-2n1.text" = "Snap";

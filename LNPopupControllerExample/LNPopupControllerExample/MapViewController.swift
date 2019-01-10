@@ -13,13 +13,15 @@ import MapKit
 class MapViewController: UIViewController, UISearchBarDelegate {
 	@IBOutlet weak var mapView: MKMapView!
 	private var popupContentVC: LocationsController!
+    
+    var customMapBar: CustomYTBarViewController!
 
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
         
         let targetVC: UIViewController = self.tabBarController ?? self
 		
-        let customMapBar = UIStoryboard(name: "Custom", bundle: nil).instantiateViewController(withIdentifier: "CustomYTBarViewController") as! CustomYTBarViewController
+        customMapBar = UIStoryboard(name: "Custom", bundle: nil).instantiateViewController(withIdentifier: "CustomYTBarViewController") as! CustomYTBarViewController
         customMapBar.view.backgroundColor = .clear
         targetVC.popupBar.inheritsVisualStyleFromDockingView = false
         targetVC.popupBar.customBarViewController = customMapBar
@@ -43,6 +45,20 @@ class MapViewController: UIViewController, UISearchBarDelegate {
 		}
 	}
 	
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        coordinator.animate(alongsideTransition: { (_ context) in
+            //
+            if size.width > size.height {
+                self.customMapBar.preferredContentSize = CGSize(width: -1, height: 48)
+            }
+            else {
+                self.customMapBar.preferredContentSize = CGSize(width: -1, height: 65)
+            }
+        }) { (_ context) in
+            //
+        }
+    }
+    
 	func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
 		openPopup(animated: true, completion: nil)
 		

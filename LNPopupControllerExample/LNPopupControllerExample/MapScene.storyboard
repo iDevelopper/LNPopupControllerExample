@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hH8-6E-7Ky">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hH8-6E-7Ky">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -68,9 +68,16 @@
                                 </view>
                                 <blurEffect style="extraLight"/>
                             </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bottom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bmk-N2-bPp">
+                                <rect key="frame" x="159.5" y="597" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="fTi-HK-yCs" firstAttribute="top" secondItem="Bmk-N2-bPp" secondAttribute="bottom" id="18E-M5-tIT"/>
                             <constraint firstAttribute="bottom" secondItem="fTi-HK-yCs" secondAttribute="bottom" id="53b-6h-61m"/>
                             <constraint firstAttribute="trailing" secondItem="z3u-Zt-das" secondAttribute="trailing" id="5g0-iP-rZr"/>
                             <constraint firstItem="5u8-d1-mBI" firstAttribute="top" secondItem="ttR-e1-b3Y" secondAttribute="top" constant="20" id="8AO-7m-vxX"/>
@@ -84,6 +91,7 @@
                             <constraint firstItem="z3u-Zt-das" firstAttribute="top" secondItem="Mjn-jY-G6a" secondAttribute="top" id="dfX-n3-ch3"/>
                             <constraint firstAttribute="trailing" secondItem="fTi-HK-yCs" secondAttribute="trailing" id="ei5-QK-t3A"/>
                             <constraint firstAttribute="trailing" secondItem="0EZ-UY-PPz" secondAttribute="trailing" id="gmU-UH-plU"/>
+                            <constraint firstItem="Bmk-N2-bPp" firstAttribute="centerX" secondItem="Mjn-jY-G6a" secondAttribute="centerX" id="kB2-1h-tsu"/>
                             <constraint firstItem="ttR-e1-b3Y" firstAttribute="top" secondItem="z3u-Zt-das" secondAttribute="bottom" id="xiS-Dz-Wxg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ttR-e1-b3Y"/>
@@ -299,6 +307,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hH8-6E-7Ky" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CM4-9r-y8n">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
